@@ -1,0 +1,102 @@
+body {
+  font-family: "Maven Pro";
+    background: url("addressbook.jpg"), rgba(0,0,0,0.6);
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+}
+    
+.form-container {
+  background-color: rgb(179,178,176, 0.6);
+  margin: 0 auto;
+  width: 60vh;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+  
+}
+p {
+  margin: 0px
+}
+
+
+input {
+  
+  box-sizing: border-box;
+  width: 100%;
+ 
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff
+}
+select {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+button {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  display: block;
+   width: 100%;
+  box-sizing: border-box;
+}
+#contact_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+}
+.contact_box {
+  margin: 15px;
+  width: 225px;
+  height: 100px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  
+  position: relative;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+
+i { color:red;
+  position: absolute;
+  bottom: -2px;
+  right: -5px;
+  
+  /* couldn't figure out how to change size of trash icon */
+}
+ 
+  
+  
+ 
+
+
+
+/* Style Guide:
+// 1. Font-family: Maven Pro
+// 2. Background-image: (save and use in your project)
+// a. https://lms.grandcircus.co/pluginfile.php/12888/mod_resource/content/0/backg
+// round.jpg
+// 3. Background’s overlay color: rgba(0,0,0,0.6)
+// 4. Icon font: Font Awesome or Material Icons
+// 5. Border radius on form, inputs, and contact containers: 5px
+// 6. Padding on inputs: 10px
+// 7. Colors:
+// a. Form background: rgb(179,178,176, 0.6)
+// b. Contact container background: rgba(255,255,255,0.8)
+// c. Input background: #fff
